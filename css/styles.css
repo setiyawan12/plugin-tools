@@ -26,5 +26,67 @@
 
 .btn1{
     float: right;
+    background-color:#44c767;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 29px;
+	text-decoration:none;
+	text-shadow:-1px 1px 23px #2f6627;
 
+}
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 29px;
+	text-decoration:none;
+	text-shadow:-1px 1px 23px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.btn{
+    background-color:#0073ff;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 29px;
+	text-decoration:none;
+	text-shadow:-1px 1px 23px #2f6627;
+}
+.btn:hover{
+    background-color:#5cbf2a;
+
+}
+
+.btn:active{
+
+    position:relative;
+	top:1px;
+}
 }
