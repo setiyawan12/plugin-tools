@@ -66,7 +66,46 @@
 	text-shadow:-1px 1px 23px #2f6627;
 
 }
-.myButton {
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(255,221,255);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+/* .myButton {
 	background-color:#44c767;
 	-moz-border-radius:21px;
 	-webkit-border-radius:21px;
@@ -87,7 +126,7 @@
 .myButton:active {
 	position:relative;
 	top:1px;
-}
+} */
 
 .btn{
     background-color:#0073ff;
